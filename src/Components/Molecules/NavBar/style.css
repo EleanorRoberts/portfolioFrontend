@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+    background-color: #393939;
+}
+
+nav p {
+    font-family: 'Caveat', monospace;
+    font-size: 30px;
+    padding-right: 20px;
+    color: #E6E6E6;
+    text-align: center;
+    margin: 10px;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+}
+
+.navLinks a {
+    text-decoration: none;
+    font-size: 36px;
+    color: #808080;
+    margin: 10px;
+}
+
+.navLinks a:hover, .navLinks a:focus {
+    color: #33827F;
+}
+
+@media only screen and (max-width: 450px) {
+    nav p {
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width:340px) {
+    .navLinks {
+        width: 50%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

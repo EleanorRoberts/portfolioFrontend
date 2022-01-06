@@ -1,0 +1,26 @@
+.workExperience {
+    position: relative;
+    background-color: #808080;
+    padding: 20px 20px 60px 20px;
+    margin: 0 10px 0 10px;
+}
+
+.workExperience h1 {
+    color: #483D8B;
+}
+
+.workExperience h3 {
+    color: #393939;
+}
+
+.workExperience p {
+    color: #E6E6E6;
+}
+
+.roleCard {
+    margin-top: 40px;
+}
+
+.workExperience .roleDetails {
+    color: #393939;
+}

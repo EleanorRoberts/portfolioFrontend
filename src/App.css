@@ -1,0 +1,38 @@
+.content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Fira Code";
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-30deg, #393939, #E6E6E6, #808080);
+    animation: gradient 30s ease infinite;
+    background-size: 5000% 5000%;
+    overflow-x: hidden;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .content {
+        width: 100vw;
+        margin: auto;
+    }
+}

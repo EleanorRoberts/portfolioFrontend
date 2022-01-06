@@ -1,0 +1,37 @@
+.hobbies {
+    position: relative;
+    background-color: #808080;
+    border-right: #808080 solid 20vw;
+    padding: 20px;
+    margin: 30px 0 30px 0;
+    left: 25%;
+}
+
+.hobbies h2 {
+    color: #E6E6E6;
+}
+
+.hobbies ul {
+    columns: 3;
+    padding-inline-start: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.hobbies li {
+    color: #393939;
+}
+
+@media only screen and (max-width: 450px) {
+    .hobbies {
+        position: static;
+        border: 0;
+        padding: 20px;
+        margin: 30px 0 30px 0;
+        left: 0;
+    }
+
+    .hobbies ul {
+        columns: 2;
+    }
+}

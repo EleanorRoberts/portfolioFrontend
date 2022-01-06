@@ -1,0 +1,40 @@
+.projectCard {
+    border: #393939 solid 3px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.projectCard h3 {
+    margin-top: 5px;
+}
+
+.projectCard a {
+    font-size: 45px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    background-color: #808080;
+    color: #483D8B;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+}
+
+.projectCard .liveVersion {
+    font-size: 20px;
+}
+
+.projectCard .projectLinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.projectCard a:hover, .projectCard a:focus {
+    color: #E6E6E6;
+    background-color: #33827F;
+}

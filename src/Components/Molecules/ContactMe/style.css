@@ -1,0 +1,66 @@
+.contactMe {
+    background-color: #393939;
+    padding: 20px 500px 20px 500px;
+    margin: 10px 0 0 0;
+    width: 200%;
+    position: relative;
+    right: 50%;
+}
+
+.contactMe h2 {
+    color: #E6E6E6;
+    margin-bottom: 10px;
+}
+
+.contactMe p {
+    color: #808080;
+}
+
+.contactMe a {
+    font-size: 70px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #808080;
+    color: #483D8B;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+}
+
+.contactMe .mediaLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contactMe a:hover, .contactMe a:focus {
+    color: #E6E6E6;
+    background-color: #33827F;
+    border: 3px solid #393939;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contactMe {
+        padding: 20px 200px 20px 200px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .contactMe {
+        position: static;
+        padding: 20px;
+        width: 100%;
+        right: 0;
+    }
+
+    .contactMe a {
+        font-size: 60px;
+        width: 70px;
+        height: 70px;
+    }
+}

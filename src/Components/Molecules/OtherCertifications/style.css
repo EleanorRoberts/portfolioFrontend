@@ -1,0 +1,26 @@
+.otherCertifications {
+    position: relative;
+    background-color: #393939;
+    border-left: #393939 solid 20vw;
+    padding: 20px;
+    margin: 30px 0 30px 0;
+    right: 25%;
+}
+
+.otherCertifications h2 {
+    color: #E6E6E6;
+}
+
+.otherCertifications p {
+    color: #808080;
+}
+
+@media only screen and (max-width: 450px) {
+    .otherCertifications {
+        position: static;
+        border: 0;
+        padding: 20px;
+        margin: 30px 0 30px 0;
+        right: 0;
+    }
+}
