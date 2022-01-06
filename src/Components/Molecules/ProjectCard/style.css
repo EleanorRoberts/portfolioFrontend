@@ -32,9 +32,15 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
 }
 
 .projectCard a:hover, .projectCard a:focus {
     color: #E6E6E6;
     background-color: #33827F;
+}
+
+.projectCard .disabled-link {
+    pointer-events: none;
+    opacity: 0.5;
 }

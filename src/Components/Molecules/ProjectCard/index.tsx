@@ -1,5 +1,6 @@
 import MiniHeader from "../../Atoms/MiniHeader";
-import './style.css';
+import "./style.css";
+import ProjectLinks from "../ProjectLinks";
 
 interface ProjectProps {
     name: string;
@@ -14,10 +15,7 @@ const ProjectCard = (props: ProjectProps) => {
         <div className="projectCard">
             <MiniHeader title={props.name} />
             <p>{props.about}</p>
-            <div className="projectLinks">
-                <a href={props.github_link} target="_blank" rel="noreferrer" className="fab fa-github"></a>
-                <a href={props.live_version} target="_blank" rel="noreferrer" className="liveVersion">LIVE</a>
-            </div>
+            <ProjectLinks githubLink={props.github_link} liveVersion={props.live_version} />
         </div>
     )}
 
