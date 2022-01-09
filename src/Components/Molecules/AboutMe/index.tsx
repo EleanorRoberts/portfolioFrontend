@@ -10,7 +10,7 @@ interface StateProperties {
 const AboutMe = () => {
     const [aboutMeData, setAboutMeData] = useState<StateProperties[]>([]);
     async function getAboutMeData() {
-        let response = await fetch('https://restful-cv-api.2021-eleanorr.dev.io-academy.uk/about-me');
+        let response = await fetch('https://portfolio-restful-api.2021-eleanorr.dev.io-academy.uk/about-me');
         setAboutMeData(await response.json());
     }
     useEffect(() => {

@@ -1,10 +1,10 @@
 .contactMe {
     background-color: #393939;
-    padding: 20px 500px 20px 500px;
+    padding: 20px 400px 20px 400px;
     margin: 10px 0 0 0;
-    width: 200%;
+    width: 105vw;
     position: relative;
-    right: 50%;
+    right: 20vw;
 }
 
 .contactMe h2 {

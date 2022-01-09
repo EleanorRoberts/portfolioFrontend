@@ -15,7 +15,7 @@ const WorkExperience = () => {
     const [workExperienceData, setWorkExperienceData] = useState<WorkExperienceProperties[]>([]);
 
     async function getWorkExperienceData() {
-        let response = await fetch('https://restful-cv-api.2021-eleanorr.dev.io-academy.uk/work-experience');
+        let response = await fetch('https://portfolio-restful-api.2021-eleanorr.dev.io-academy.uk/work-experience');
         setWorkExperienceData(await response.json());
     }
     useEffect(() => {

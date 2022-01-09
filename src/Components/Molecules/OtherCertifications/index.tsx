@@ -12,7 +12,7 @@ interface StateProperties {
 const OtherCertifications = () => {
     const [otherCertificationsData, setOtherCertificationsData] = useState<StateProperties[]>([]);
     async function getOtherCertificationData() {
-        let response = await fetch('https://restful-cv-api.2021-eleanorr.dev.io-academy.uk/other-certifications');
+        let response = await fetch('https://portfolio-restful-api.2021-eleanorr.dev.io-academy.uk/other-certifications');
         setOtherCertificationsData(await response.json());
     }
 

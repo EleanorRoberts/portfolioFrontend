@@ -13,7 +13,7 @@ interface ProjectProperties {
 const Projects = () => {
     const [projectsData, setProjectsData] = useState<ProjectProperties[]>([]);
     async function getProjectsData() {
-        let response = await fetch('https://restful-cv-api.2021-eleanorr.dev.io-academy.uk/projects');
+        let response = await fetch('https://portfolio-restful-api.2021-eleanorr.dev.io-academy.uk/projects');
         setProjectsData(await response.json());
     }
     useEffect(() => {

@@ -9,7 +9,7 @@ interface StateProperties {
 const Hobbies = () => {
     const [hobbiesData, setHobbiesData] = useState<StateProperties[]>([]);
     async function getHobbiesData() {
-        let response = await fetch('https://restful-cv-api.2021-eleanorr.dev.io-academy.uk/hobbies')
+        let response = await fetch('https://portfolio-restful-api.2021-eleanorr.dev.io-academy.uk/hobbies')
         setHobbiesData(await response.json())
     }
     useEffect(() => {
