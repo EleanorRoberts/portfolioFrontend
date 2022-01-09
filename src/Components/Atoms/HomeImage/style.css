@@ -19,3 +19,20 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 450px) {
+    .imageContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #devClass {
+        margin: 10px;
+        width: 95%;
+    }
+
+    #dogClass {
+        margin: 10px;
+        width: 55%;
+    }
+}
