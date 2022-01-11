@@ -1,5 +1,5 @@
 import SectionHeader from "../../Atoms/SectionHeader";
-import './style.css';
+import './style.scss';
 import {useState, useEffect} from "react";
 
 interface StateProperties {

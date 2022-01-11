@@ -8,10 +8,6 @@
 
 - Add SVG
 - Change images to divs on home page
-- Add date formatting
 - Add link image??
 - Add unit tests
 - Add validation
-- Add SCSS
-  - Have to use `npm install scss?sass`
-  - It just works! Import .scss

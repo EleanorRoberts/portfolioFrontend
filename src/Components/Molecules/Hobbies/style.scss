@@ -1,0 +1,38 @@
+@import "src/colourScheme";
+
+.hobbies {
+    position: relative;
+    background-color: $colourTwo;
+    border-right: $colourTwo solid 20vw;
+    padding: 20px;
+    margin: 30px 0 30px 0;
+    left: 15vw;
+
+    h2 {
+        color: $colourThree;
+    }
+    ul {
+        columns: 3;
+        padding-inline-start: 0;
+        list-style-type: none;
+        text-align: center;
+        li {
+            color: $colourOne;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .hobbies {
+        position: static;
+        border: 0;
+        padding: 20px;
+        margin: 30px 0 30px 0;
+        left: 0;
+
+        ul {
+            columns: 2;
+        }
+    }
+}

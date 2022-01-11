@@ -1,5 +1,5 @@
 import MiniHeader from "../../Atoms/MiniHeader";
-import './style.css';
+import './style.scss';
 import {useState, useEffect} from "react";
 import {formatTitle} from "../../Utilities/FormatTitle";
 

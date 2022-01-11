@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 import SectionHeader from "../../Atoms/SectionHeader";
 
 const ContactMe = () => {

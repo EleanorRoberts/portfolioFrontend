@@ -5,17 +5,16 @@
     display: flex;
     flex-direction: column;
     align-items: end;
-}
-
-.codingBox p {
-    border-right: transparent solid 3px;
-    width: 0;
-    text-align: end;
-    white-space: nowrap;
-    overflow: hidden;
-    font-family: 'Fira Code', monospace;
-    font-size: 15px;
-    color: #FFFFFFB2;
+    p {
+        border-right: transparent solid 3px;
+        width: 0;
+        text-align: end;
+        white-space: nowrap;
+        overflow: hidden;
+        font-family: 'Fira Code', monospace;
+        font-size: 15px;
+        color: #FFFFFFB2;
+    }
 }
 
 .codingBox p:nth-child(1) {

@@ -1,3 +1,5 @@
+import './style.scss';
+
 interface MiniHeaderProps {
     title: string
 }

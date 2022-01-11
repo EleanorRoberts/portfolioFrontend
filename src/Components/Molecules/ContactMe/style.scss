@@ -1,0 +1,64 @@
+@import "src/colourScheme";
+
+.contactMe {
+    background-color: $colourOne;
+    padding: 20px 400px 20px 400px;
+    margin: 10px 0 0 0;
+    width: 144%;
+    position: relative;
+    right: 22%;
+
+    h2 {
+        color: $colourThree;
+        margin-bottom: 10px;
+    }
+    p {
+        color: $colourTwo;
+    }
+    a {
+        font-size: 70px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        text-decoration: none;
+        background-color: $colourTwo;
+        color: $colourFour;
+        border-radius: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 30px;
+        :hover, :focus {
+            color: #E6E6E6;
+            background-color: $colourFive;
+            border: 3px solid $colourOne;
+        }
+    }
+    .mediaLinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .contactMe {
+        padding: 20px 20vw 20px 20vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .contactMe {
+        position: static;
+        padding: 20px;
+        width: 100%;
+        right: 0;
+
+        a {
+            font-size: 60px;
+            width: 70px;
+            height: 70px;
+        }
+    }
+}

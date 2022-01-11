@@ -1,4 +1,4 @@
-import './style.css';
+import './style.scss';
 import IconLink from '../../Atoms/IconLink';
 import PDF from './eleanor-roberts-cv.pdf';
 
