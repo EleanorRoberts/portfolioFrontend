@@ -1,7 +1,8 @@
 import PageHeader from "../../Atoms/PageHeader";
 import MiniHeader from "../../Atoms/MiniHeader";
-import './style.css';
+import "./style.css";
 import {useState, useEffect} from "react";
+import {formatDate} from "../../Utilities/FormatDate";
 
 interface WorkExperienceProperties {
     company: string;
@@ -29,7 +30,7 @@ const WorkExperience = () => {
                 return (
                         <div key={company+position} className="roleCard">
                             <MiniHeader title={position} />
-                            <p className="roleDetails">{company} {start_date ? ': ' + start_date + ' to ' + leave_date : ''}</p>
+                            <p className="roleDetails">{company} {start_date ? ': ' + formatDate(start_date) + ' to ' + leave_date : ''}</p>
                             <p>{about ?? ''}</p>
                         </div>
                     )
