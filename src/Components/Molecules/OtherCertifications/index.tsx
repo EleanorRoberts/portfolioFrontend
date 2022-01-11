@@ -1,5 +1,6 @@
 import SectionHeader from "../../Atoms/SectionHeader";
 import './style.css';
+import {formatDate} from '../../Utilities/FormatDate'
 
 import {useState, useEffect} from "react";
 
@@ -25,7 +26,7 @@ const OtherCertifications = () => {
             <SectionHeader title={"Other Certifications"} />
             {otherCertificationsData.map(({name, certifier, date_achieved}) => (
                 <div key={name}>
-                    <p>{name} {certifier ? ': ' + certifier : ''} {date_achieved ? '- ' + date_achieved : ''} </p>
+                    <p>{name} {certifier ? ': ' + certifier : ''} {date_achieved ? '- ' + formatDate(date_achieved) : ''} </p>
                 </div>
             ))}
         </section>

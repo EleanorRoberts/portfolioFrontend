@@ -1,0 +1,42 @@
+@import 'src/colourScheme';
+
+#catImage {
+    width: 60%;
+    border-radius: 15px;
+    transition: width 3s, border-radius 5s;
+}
+
+#notFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        color: $colourThree;
+        margin: 20px;
+    }
+}
+
+#goHome {
+    text-decoration: none;
+    border: $colourTwo solid 4px;
+    border-radius: 5px;
+    color: $colourOne;
+    background: $colourTwo;
+    margin: 10px;
+    padding: 8px 14px 10px;
+}
+
+#goHome:hover, #goHome:focus {
+    text-decoration: none;
+    border: $colourThree solid 4px;
+    color: $colourFive;
+    background: $colourThree;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+    #catImage {
+        width: 90%;
+        margin: 30px;
+    }
+}

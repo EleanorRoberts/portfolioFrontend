@@ -2,9 +2,9 @@
     background-color: #393939;
     padding: 20px 400px 20px 400px;
     margin: 10px 0 0 0;
-    width: 105vw;
+    width: 144%;
     position: relative;
-    right: 20vw;
+    right: 22%;
 }
 
 .contactMe h2 {
@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 1000px) {
     .contactMe {
-        padding: 20px 200px 20px 200px;
+        padding: 20px 20vw 20px 20vw;
     }
 }
 

@@ -30,7 +30,7 @@ const WorkExperience = () => {
                 return (
                         <div key={company+position} className="roleCard">
                             <MiniHeader title={position} />
-                            <p className="roleDetails">{company} {start_date ? ': ' + formatDate(start_date) + ' to ' + leave_date : ''}</p>
+                            <p className="roleDetails">{company} {start_date ? ': ' + formatDate(start_date) + ' to ' + formatDate(leave_date) : ''}</p>
                             <p>{about ?? ''}</p>
                         </div>
                     )

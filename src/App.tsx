@@ -1,10 +1,11 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
-import './App.css';
+import './App.scss';
 import Home from "./Components/Templates/Home";
 import WorkExperience from "./Components/Templates/WorkExperience";
 import Projects from "./Components/Templates/Projects";
 import NavBar from "./Components/Molecules/NavBar";
+import NotFound from "./Components/Pages/NotFound";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                     <Route path="/" element={ <Home /> } />
                     <Route path="/work-experience" element={ <WorkExperience /> } />
                     <Route path="/projects" element={ <Projects /> } />
+                    <Route path="*" element={ <NotFound /> } />
                 </Routes>
             </div>
         </Router>
