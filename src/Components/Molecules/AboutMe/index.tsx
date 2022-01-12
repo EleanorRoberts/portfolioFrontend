@@ -1,7 +1,7 @@
-import MiniHeader from "../../Atoms/MiniHeader";
 import './style.scss';
 import {useState, useEffect} from "react";
 import {formatTitle} from "../../Utilities/FormatTitle";
+import SectionHeader from "../../Atoms/SectionHeader";
 
 interface StateProperties {
     name: string;
@@ -22,7 +22,7 @@ const AboutMe = () => {
         <section className="aboutMe">
             {aboutMeData.map(({name, description}) => (
                 <div key={name}>
-                    <MiniHeader title={formatTitle(name)} />
+                    <SectionHeader title={formatTitle(name)} />
                     <p>{description}</p>
                 </div>
             ))}

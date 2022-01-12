@@ -27,10 +27,20 @@ nav {
         font-size: 36px;
         color: $colourTwo;
         margin: 10px;
+        &:hover, &:focus {
+            color: $colourFive;
+        }
     }
-    a:hover, a:focus {
-        color: $colourFive;
+    a.active {
+        color: $colourFour;
+        background-color: $colourThree;
+        border-radius: 10px;
+        padding: 5px;
+        &:hover, &:focus {
+            color: $colourFour;
+        }
     }
+
 }
 
 

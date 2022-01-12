@@ -99,12 +99,21 @@
 
 }
 
+@media only screen and (max-width: 1000px) {
+    .codingBox {
+        padding: 30px 15px 15px;
+        p {
+            font-size: 12px;
+        }
+    }
+}
+
 @media only screen and (max-width: 450px) {
     .codingBox {
         position: static;
         padding: 10px;
         p {
-            font-size: 10px;
+            font-size: calc(10px + 1vw);
         }
     }
 }
