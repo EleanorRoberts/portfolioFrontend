@@ -6,8 +6,15 @@
 
 ##To Do:
 
-- Add SVG
-- Change images to divs on home page
+- Add SVG background?
 - Add link image??
 - Add unit tests
 - Add validation
+- Add pictures for projects
+  - Change projects to a carousel?
+- Add admin login
+  - Plus pages to update delete etc
+  - user validation
+
+
+/// border style outset

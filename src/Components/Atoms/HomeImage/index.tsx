@@ -16,7 +16,7 @@ const HomeImage = () => (
                 <p>public getters: string | int | array</p>
                 <p>public setters: void</p>
                 <p>public drinkCoffee(Coffee Machine $coffeeMachine): string</p>
-                <p>public petPuppy(Dog $nova): string</p>
+                <p>public petPuppy(Dog $dog): string</p>
                 <p>public writeCode(): string</p>
                 <p>public screamInRage(): string</p>
             </div>

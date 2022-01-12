@@ -6,6 +6,7 @@ import WorkExperience from "./Components/Templates/WorkExperience";
 import Projects from "./Components/Templates/Projects";
 import NavBar from "./Components/Molecules/NavBar";
 import NotFound from "./Components/Pages/NotFound";
+import ContactMe from "./Components/Molecules/ContactMe";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/projects" element={ <Projects /> } />
                     <Route path="*" element={ <NotFound /> } />
                 </Routes>
+                <ContactMe />
             </div>
         </Router>
     );

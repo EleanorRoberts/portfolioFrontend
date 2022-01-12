@@ -1,5 +1,5 @@
 import SectionHeader from "../../Atoms/SectionHeader";
-import './style.css';
+import './style.scss';
 import {formatDate} from '../../Utilities/FormatDate'
 
 import {useState, useEffect} from "react";
