@@ -12,6 +12,7 @@
         white-space: nowrap;
         overflow: hidden;
         font-family: 'Fira Code', monospace;
+        //text-shadow: 4px 4px 5px #000000, -4px 4px 5px #000000, 4px -4px 5px #000000, -4px -4px 5px #000000;
         font-size: 15px;
         color: #FFFFFFB2;
     }
@@ -110,6 +111,7 @@
 
 @media only screen and (max-width: 450px) {
     .codingBox {
+        clear: both;
         position: static;
         padding: 10px;
         p {
