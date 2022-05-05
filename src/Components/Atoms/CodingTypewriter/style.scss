@@ -1,10 +1,12 @@
+@import '../../../colourScheme';
+
 .codingBox {
     padding: 40px;
     position: absolute;
     right: 1px;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
     p {
         border-right: transparent solid 3px;
         width: 0;
@@ -14,7 +16,7 @@
         font-family: 'Fira Code', monospace;
         //text-shadow: 4px 4px 5px #000000, -4px 4px 5px #000000, 4px -4px 5px #000000, -4px -4px 5px #000000;
         font-size: 15px;
-        color: #FFFFFFB2;
+        color: $colourFour;
     }
 }
 
@@ -95,7 +97,7 @@
         border-right: solid 3px transparent;
     }
     50% {
-        border-right: solid 3px #33827f;
+        border-right: solid 3px $colourFive;
     }
 
 }

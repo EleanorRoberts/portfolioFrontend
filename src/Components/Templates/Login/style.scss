@@ -1,0 +1,19 @@
+@import 'src/colourScheme';
+
+.login {
+    position: relative;
+    background-color: $colourOne;
+    padding: 5px;
+    margin: 0 10px 0 10px;
+    p {
+        text-align: center;
+        color: $colourFour;
+    }
+}
+
+.login h1 {
+    color: $colourFive;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+

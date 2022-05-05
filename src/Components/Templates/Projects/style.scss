@@ -1,11 +1,13 @@
+@import 'src/colourScheme';
+
 .projects {
     position: relative;
-    background-color: #E6E6E6;
+    background-color: $colourFour;
     padding: 20px 20px 60px 20px;
     margin: 0 10px 0 10px;
 }
 
 .projects h1 {
-    color: #33827F;
+    color: $colourFive;
 }
 

@@ -1,8 +1,11 @@
+@import "src/colourScheme";
+
 .projectCard {
-    border: #393939 solid 3px;
+    border: $colourTwo outset 10px;
     padding: 15px;
     border-radius: 5px;
     margin: 10px;
+    color: $colourTwo;
 }
 
 .projectCard h3 {
@@ -14,8 +17,8 @@
     width: 50px;
     height: 50px;
     text-decoration: none;
-    background-color: #808080;
-    color: #483D8B;
+    background-color: $colourTwo;
+    color: $colourThree;
     border-radius: 20%;
     display: flex;
     justify-content: center;
@@ -36,8 +39,8 @@
 }
 
 .projectCard a:hover, .projectCard a:focus {
-    color: #E6E6E6;
-    background-color: #33827F;
+    color: $colourFour;
+    background-color: $colourSix;
 }
 
 .projectCard .disabled-link {

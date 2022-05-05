@@ -21,16 +21,16 @@
         border-radius: 10px;
         overflow: hidden;
         margin: 20px;
-        background-color: $colourThree;
+        background-color: $colourFour;
         border: 2px solid $colourTwo;
         div {
             padding: 5px;
             border-bottom: 1px solid $colourTwo;
         }
         .classHeader {
-            background-color: $colourFour;
+            background-color: $colourOne;
             padding: 10px 15px;
-            color: #E6E6E6;
+            color: $colourFive;
             font-size: 14px;
         }
     }

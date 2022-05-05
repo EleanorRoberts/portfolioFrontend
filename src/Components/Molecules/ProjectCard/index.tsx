@@ -1,5 +1,5 @@
 import MiniHeader from "../../Atoms/MiniHeader";
-import "./style.css";
+import "./style.scss";
 import ProjectLinks from "../ProjectLinks";
 
 interface ProjectProps {

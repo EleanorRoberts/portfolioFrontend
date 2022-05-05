@@ -7,6 +7,7 @@ import Projects from "./Components/Templates/Projects";
 import NavBar from "./Components/Molecules/NavBar";
 import NotFound from "./Components/Pages/NotFound";
 import ContactMe from "./Components/Molecules/ContactMe";
+import Login from "./Components/Templates/Login";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route path="/" element={ <Home /> } />
                     <Route path="/work-experience" element={ <WorkExperience /> } />
                     <Route path="/projects" element={ <Projects /> } />
+                    <Route path="/login" element={ <Login /> } />
                     <Route path="*" element={ <NotFound /> } />
                 </Routes>
                 <ContactMe />

@@ -1,6 +1,6 @@
 import PageHeader from "../../Atoms/PageHeader";
 import MiniHeader from "../../Atoms/MiniHeader";
-import "./style.css";
+import "./style.scss";
 import {useState, useEffect} from "react";
 import {formatDate} from "../../Utilities/FormatDate";
 

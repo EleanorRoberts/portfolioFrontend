@@ -8,7 +8,7 @@
     right: 22%;
 
     h2 {
-        color: $colourThree;
+        color: $colourFour;
         margin-bottom: 10px;
     }
     p {
@@ -20,7 +20,7 @@
         height: 100px;
         text-align: center;
         text-decoration: none;
-        background-color: $colourTwo;
+        background-color: $colourSix;
         color: $colourFour;
         border-radius: 20%;
         display: flex;
@@ -40,7 +40,7 @@
         justify-content: space-evenly;
         a:hover, a:focus {
             color: $colourFive;
-            background-color: $colourThree;
+            background-color: $colourFour;
             border: 3px solid $colourOne;
         }
     }
